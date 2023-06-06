@@ -1,0 +1,21 @@
+﻿#pragma once
+#include "ENUM_BossMovementAnimState.generated.h"
+
+UENUM()
+enum EBossMovementAnimState
+{
+	NONE_,
+	
+	MOVE_ON_GROUND_FWD,
+	MOVE_ON_GROUND_RIGHT,
+	MOVE_ON_GROUND_LEFT,
+	
+	MOVE_IN_GROUND_START,
+	MOVE_IN_GROUND_END,
+	
+	DASH_FWD_START,	
+	DASH_RIGHT_START,	
+	DASH_LEFT_START,
+	DASH_,
+	DASH_END
+};
